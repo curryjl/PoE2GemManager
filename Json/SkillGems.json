@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Raise Shield",
+    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
+    "Tags": [
+      {
+        "Name": "Channeling",
+        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
+      }
+    ],
+    "AttackTime": "1.0",
+    "Requirements": [ "Shield" ]
+  },
+  {
+    "Name": "Raise Shield",
+    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
+    "Tags": [
+      {
+        "Name": "Channeling",
+        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
+      }
+    ],
+    "AttackTime": "1.0",
+    "Requirements": [ "Shield" ]
+  },
+  {
+    "Name": "Raise Shield",
+    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
+    "Tags": [
+      {
+        "Name": "Channeling",
+        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
+      }
+    ],
+    "AttackTime": "1.0",
+    "Requirements": [ "Shield" ]
+  }
+]

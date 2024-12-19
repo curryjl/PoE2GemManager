@@ -1,0 +1,1683 @@
+[
+    {
+        "Name": "Ablation",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [
+            "\u30fb30% increased effect of Offerings"
+        ],
+        "Description": null,
+        "Effects": [
+            "Supported Skills Sacrifice 15% of Life on use",
+            "Supported Offering Skills deal 30% more Damage."
+        ]
+    },
+    {
+        "Name": "Acceleration",
+        "Tags": [
+            "Projectile"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 40% more Projectile Speed"
+        ]
+    },
+    {
+        "Name": "Aftershock",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Slam"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 20% chance to cause an Aftershock"
+        ]
+    },
+    {
+        "Name": "Ambush",
+        "Tags": [
+            "Critical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skill has 100% more critical hit chance against enemies that are on full life."
+        ]
+    },
+    {
+        "Name": "Ammo Conservation",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Crossbow attacks have 25% chance to not consume a bolt"
+        ]
+    },
+    {
+        "Name": "Ancestral Urgency",
+        "Tags": [
+            "Totem"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 80% increased Totem placement speed"
+        ]
+    },
+    {
+        "Name": "Arcane Surge",
+        "Tags": [
+            "Spell",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Gain Arcane Surge for 8 seconds after spending a total of 100% of your maximum mana on supported skills"
+        ]
+    },
+    {
+        "Name": "Arcane Tempo",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 25% more cast speed"
+        ]
+    },
+    {
+        "Name": "Armour Explosion",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Trigger",
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Support:",
+            "Supported skills trigger an explosion when they Fully Break an enemy's Armour",
+            "Explosion:",
+            "Converts 100% of Physical damage to be Fire Damage",
+            "Explosion radius is 1.4 metres"
+        ]
+    },
+    {
+        "Name": "Auto Reload",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills reload automatically on Heavy Stunning an enemy"
+        ]
+    },
+    {
+        "Name": "Behead",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Strike"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Killing Blows from Supported Strike Skills against Rare Monsters grant one of their Modifiers for 20 Seconds."
+        ]
+    },
+    {
+        "Name": "Blind",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 100% chance to Blind Enemies on hit"
+        ]
+    },
+    {
+        "Name": "Bloodlust",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 30% more Melee Physical Damage against bleeding enemies",
+            "Supported attacks cannot cause bleeding"
+        ]
+    },
+    {
+        "Name": "Bludgeon",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills that Knock Enemies Back on Hit"
+        ]
+    },
+    {
+        "Name": "Break Endurance",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "20% Chance to gain an Endurance Charge when supported skills fully break enemy armour"
+        ]
+    },
+    {
+        "Name": "Break Posture",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills apply Daze when fully Breaking Armour",
+            "Daze lasts for 6 seconds"
+        ]
+    },
+    {
+        "Name": "Brutality",
+        "Tags": [
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 35% more Physical Damage",
+            "Supported skills deal no Chaos Damage",
+            "Supported skills deal no elemental damage"
+        ]
+    },
+    {
+        "Name": "Bullseye",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 50% more Accuracy Rating"
+        ]
+    },
+    {
+        "Name": "Bursting Plague",
+        "Tags": [
+            "AoE",
+            "Trigger",
+            "Physical",
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Poison from supported skills also adds 200% of damage per second to enemy as Plague, up to a maximum of 10% of enemy's maximum life."
+        ]
+    },
+    {
+        "Name": "Cannibalism",
+        "Tags": [
+            "Buff",
+            "Persistent"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "4% of Life recovered on Kill while a Supported Skill is active"
+        ]
+    },
+    {
+        "Name": "Chain",
+        "Tags": [
+            "Projectile",
+            "Chaining"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills Chain +1 times",
+            "Supported skills chain 100% more times",
+            "Supported skills deal 50% less damage with hits"
+        ]
+    },
+    {
+        "Name": "Chaotic Freeze",
+        "Tags": [
+            "Spell",
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Chaos damage contributes to Freeze buildup for Hits against targets taking damage over time from Supported Skills"
+        ]
+    },
+    {
+        "Name": "Clarity",
+        "Tags": [
+            "Buff",
+            "Persistent"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "30% Increased Mana Regeneration rate while a supported skill is active"
+        ]
+    },
+    {
+        "Name": "Close Combat",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 25% more attack damage to enemies within 1 metre of you, scaling down to no bonus at 3.5 metres or further"
+        ]
+    },
+    {
+        "Name": "Cold Infusion",
+        "Tags": [
+            "Attack",
+            "Cold"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported attacks gain 25% of damage as extra Cold Damage.",
+            "Supported attacks deal 50% less Fire and Lightning Damage"
+        ]
+    },
+    {
+        "Name": "Cold Penetration",
+        "Tags": [
+            "Cold"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills penetrate 30% of Cold Resistance"
+        ]
+    },
+    {
+        "Name": "Combo Finisher",
+        "Tags": [
+            "Attack",
+            "Strike"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills lose combo if you generate no combo for 8 seconds",
+            "Supported skills deal 40% more damage",
+            "Supported skills require 5 combo to use"
+        ]
+    },
+    {
+        "Name": "Comorbidity",
+        "Tags": [
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Targets can be affected by the +1 Poisons from supported skills at the same time",
+            "Supported skills have 30% less Poison duration"
+        ]
+    },
+    {
+        "Name": "Concentrated Effect",
+        "Tags": [
+            "AoE"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 40% more area damage",
+            "Supported skills have 50% less area of effect"
+        ]
+    },
+    {
+        "Name": "Conduction",
+        "Tags": [
+            "Lightning"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 100% more chance to Shock"
+        ]
+    },
+    {
+        "Name": "Considered Casting",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported spell skills have 10% less cast speed",
+            "Supported skills deal 25% more damage with spell hits"
+        ]
+    },
+    {
+        "Name": "Controlled Destruction",
+        "Tags": [
+            "Spell",
+            "Critical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 30% more damage with Hits and Ailments",
+            "Supported skills cannot deal Critical Hits"
+        ]
+    },
+    {
+        "Name": "Corpse Conservation",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Corpses consumed by supported skills have 25% chance to not be destroyed"
+        ]
+    },
+    {
+        "Name": "Corrosion",
+        "Tags": [
+            "Physical",
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Poison applied by supported skills also break armour equal to 80% of Poison damage dealt."
+        ]
+    },
+    {
+        "Name": "Corrupting Cry",
+        "Tags": [
+            "Warcry",
+            "Physical",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Warcries have 30% less area of effect",
+            "Corrupted Blood deals 25% of your strength as physical damage per second",
+            "Corrupted Blood duration is 5 seconds",
+            "Supported Warcries inflict Corrupted Blood"
+        ]
+    },
+    {
+        "Name": "Coursing Current",
+        "Tags": [
+            "AoE",
+            "Lightning"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Shocking Hits from supported skills have a 50% chance to also Shock enemies in a 2.5-metre radius"
+        ]
+    },
+    {
+        "Name": "Crescendo",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Strike"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Final Strike of supported skills can be performed twice in succession"
+        ]
+    },
+    {
+        "Name": "Deadly Poison",
+        "Tags": [
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 25% less damage with Hits",
+            "75% more Magnitude of Poison inflicted with Supported Skills"
+        ]
+    },
+    {
+        "Name": "Decaying Hex",
+        "Tags": [
+            "Chaos",
+            "Curse"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills inflict Decay, dealing 30% of Intelligence as Chaos Damage per second for 8 seconds"
+        ]
+    },
+    {
+        "Name": "Deceleration",
+        "Tags": [
+            "Projectile"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 30% less projectile speed"
+        ]
+    },
+    {
+        "Name": "Deep Cuts",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "75% more Magnitude of Bleeding inflicted with Supported Skills",
+            "Supported Skills deal 25% less damage with Hits"
+        ]
+    },
+    {
+        "Name": "Deep Freeze",
+        "Tags": [
+            "Cold"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 50% increased Freeze duration on enemies."
+        ]
+    },
+    {
+        "Name": "Demolisher",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills break 40% more Armour"
+        ]
+    },
+    {
+        "Name": "Devastate",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills fully break Armour when inflicting a Heavy Stun"
+        ]
+    },
+    {
+        "Name": "Double Barrel",
+        "Tags": [
+            "TBD"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 30% less reload speed",
+            "Supported skills load an additional bolt."
+        ]
+    },
+    {
+        "Name": "Drain Ailments",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills consume a random Ailment on the target when inflicting damage over time Debuffs",
+            "causing the Debuff to deal 35% more damage if an Ailment was consumed"
+        ]
+    },
+    {
+        "Name": "Electrocute",
+        "Tags": [
+            "Lightning"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Lightning damage from supported skills contributes to Electrocution Buildup",
+            "Supported skills deal 40% less Damage"
+        ]
+    },
+    {
+        "Name": "Elemental Army",
+        "Tags": [
+            "Minion"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Minions from supported skills have +30% to all elemental resistances"
+        ]
+    },
+    {
+        "Name": "Encumbrance",
+        "Tags": [
+            "Spell",
+            "Minion"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Debuffs inflicted with supported skills have 15% increased Slow Magnitude"
+        ]
+    },
+    {
+        "Name": "Energy Barrier",
+        "Tags": [
+            "TBD"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Energy Shield recharge begins immediately and is not interrupted by Damage for 2 seconds when stunned while using supported skills"
+        ]
+    },
+    {
+        "Name": "Enraged Warcry",
+        "Tags": [
+            "Warcry"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Warcries consume up to 10 Rage, causing attacks empowered by them to deal 30% more damage."
+        ]
+    },
+    {
+        "Name": "Envenom",
+        "Tags": [
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 60% chance to Poison on hit"
+        ]
+    },
+    {
+        "Name": "Eternal Flame",
+        "Tags": [
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 100% increased Ignite duration on enemies",
+            "Supported skills have 25% less chance to Ignite"
+        ]
+    },
+    {
+        "Name": "Excise",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have a 40% more chance to Critically hit",
+            "Supported skills have +8 seconds to cool down"
+        ]
+    },
+    {
+        "Name": "Execute",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 40% more damage with hits against enemies that are on low life"
+        ]
+    },
+    {
+        "Name": "Expanse",
+        "Tags": [
+            "AoE"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 50% more area of effect",
+            "Supported skills have 6 seconds to cool down"
+        ]
+    },
+    {
+        "Name": "Exploit Weakness",
+        "Tags": [
+            "Payoff"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills cannot Break Armour",
+            "Supported Skills Consume enemy Fully Broken Armour to deal 50% more damage"
+        ]
+    },
+    {
+        "Name": "Fast Forward",
+        "Tags": [
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 30% less skill effect duration"
+        ]
+    },
+    {
+        "Name": "Feeding Frenzy",
+        "Tags": [
+            "Minion"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "30% increased effect of Offerings",
+            "Supported Skills Sacrifice 15% of Life on use",
+            "Supported Offering Skills deal 30% more Damage."
+        ]
+    },
+    {
+        "Name": "Ferocity",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills cannot generate Frenzy Charge",
+            "Supported skills will consume a Frenzy Charge on use if possible",
+            "Supported skills have 30% more Skill Speed when consuming Frenzy Charges"
+        ]
+    },
+    {
+        "Name": "Fiery Death",
+        "Tags": [
+            "Spell",
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Killing Blows from Supported Strike Skills against Ignited enemies have a 60% chance to cause the enemy to explode"
+        ]
+    },
+    {
+        "Name": "Fire Infusion",
+        "Tags": [
+            "Attack",
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported attacks gain 25% of damage as extra fire damage",
+            "Supported attacks deal 50% less cold and lightning damage"
+        ]
+    },
+    {
+        "Name": "Fire Penetration",
+        "Tags": [
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills penetrate 50% Fire Resistance"
+        ]
+    },
+    {
+        "Name": "Fist of War",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Slam"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Attacks with Supported Skill are Ancestrally Boosted, no more than once every 6 seconds"
+        ]
+    },
+    {
+        "Name": "Focused Curse",
+        "Tags": [
+            "Curse"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Curse Zones from supported skills erupt after 30% reduced delay."
+        ]
+    },
+    {
+        "Name": "Font of Blood",
+        "Tags": [
+            "Totem"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Fonts of Blood from supported skills grant 2% Life Regeneration per second to you and your allies",
+            "Objects created by supported skills create a Font of Blood with a 3 metre radius"
+        ]
+    },
+    {
+        "Name": "Font of Mana",
+        "Tags": [
+            "Totem"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Fonts of Mana supported skills grant 40% increased mana Regeneration Rate to you and your allies",
+            "Objects created by Supported Skills Create a Font of Mana with a 3 metre radius"
+        ]
+    },
+    {
+        "Name": "Fork",
+        "Tags": [
+            "Projectile"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Projectiles from Supported Skills Fork",
+            "Projectiles from Supported Skills deal 50% less damage after Forking",
+            "Fortress IconFortress \tNone\t1\tInt: 5",
+            "Supported skills deal 50% less damage with hits",
+            "Walls from supported skills are created in a circle instead"
+        ]
+    },
+    {
+        "Name": "Fresh Clip",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Crossbow skills deal 1% more damage for each bolt reloaded by that skill in the past 6 seconds."
+        ]
+    },
+    {
+        "Name": "Frost Nexus",
+        "Tags": [
+            "AoE",
+            "Cold"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills created Chilled ground for 4 seconds when they freeze an enemy."
+        ]
+    },
+    {
+        "Name": "Glaciation",
+        "Tags": [
+            "Cold"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills cause 50% more Freeze buildup"
+        ]
+    },
+    {
+        "Name": "Glacier",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Ice Crystals created by supported skills have 100% more Life"
+        ]
+    },
+    {
+        "Name": "Heavy Swing",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 35% more Melee Physical Damage",
+            "Supported Skills have 10% less Attack Speed."
+        ]
+    },
+    {
+        "Name": "Heft",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 30% more Maximum Physical Damage"
+        ]
+    },
+    {
+        "Name": "Heightened Curse",
+        "Tags": [
+            "Curse"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "25% increased effect of supported curses"
+        ]
+    },
+    {
+        "Name": "Herbalism",
+        "Tags": [
+            "Buff",
+            "Persistent"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "30% increased recovery from Life Flasks while supported skill is active"
+        ]
+    },
+    {
+        "Name": "Hinder",
+        "Tags": [
+            "Spell",
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Chaos damage over time inflicted by supported skills also Hinders enemies"
+        ]
+    },
+    {
+        "Name": "Holy Descent",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills create Consecrated Ground for 4 Seconds on landing"
+        ]
+    },
+    {
+        "Name": "Hourglass",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 40% more damage",
+            "Supported skills have +10 seconds to cool down"
+        ]
+    },
+    {
+        "Name": "Ice Bite",
+        "Tags": [
+            "Attack",
+            "Cold",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Attacks gain 35% of damage as Cold Damage for 3 seconds on Freezing an enemy with supported skills"
+        ]
+    },
+    {
+        "Name": "Icicle",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Ice Crystals created by Supported Skills have 50% less life."
+        ]
+    },
+    {
+        "Name": "Ignition",
+        "Tags": [
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 100% more chance to ignite."
+        ]
+    },
+    {
+        "Name": "Immolate",
+        "Tags": [
+            "Fire",
+            "Payoff"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills cannot Ignite",
+            "Supported Attacks Gain 30% of Damage as extra Fire Damage against Ignited enemies."
+        ]
+    },
+    {
+        "Name": "Impact Shockwave",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Strike"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills create an Aftershock when they Heavy Stun an enemy, dealing the same damage to enemies within 1.4 metres"
+        ]
+    },
+    {
+        "Name": "Impending Doom",
+        "Tags": [
+            "Spell",
+            "AoE",
+            "Trigger",
+            "Chaos"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Support:",
+            "Trigger Doom Blast when curses from supported skills expire",
+            "Doom Blast:",
+            "Cooldown Time: 0.12s (3 uses)",
+            "Cast Time: 1.00s",
+            "Critical Hit Chance: 5.00%",
+            "Deals damage in an area around the previously Cursed enemy.",
+            "Deals base Chaos Damage equal to 15% of your current mana"
+        ]
+    },
+    {
+        "Name": "Impetus",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills gain 40% increased energy."
+        ]
+    },
+    {
+        "Name": "Inevitable Critical",
+        "Tags": [
+            "Critical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills gain 25% Increased Critical hit Chance each second, up to 100%. This Critical Hit Chance is lost whenever a skill supported by Inevitable Critical Critically Hits."
+        ]
+    },
+    {
+        "Name": "Ingenuity",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 30% increased cooldown recovery rate"
+        ]
+    },
+    {
+        "Name": "Innervate",
+        "Tags": [
+            "Attack",
+            "Lightning",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Attacks gain 35% of damage as Lightning Damage for 3 seconds on killing a Shocked enemy with supported skills."
+        ]
+    },
+    {
+        "Name": "Inspiration",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 40% less cost"
+        ]
+    },
+    {
+        "Name": "Jagged Ground",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Melee",
+            "Slam",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Slam Skills, have a 50% chance to create Jagged Ground",
+            "Jagged Ground lasts 4 seconds"
+        ]
+    },
+    {
+        "Name": "Lacerate",
+        "Tags": [
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 30% chance to inflict Bleeding."
+        ]
+    },
+    {
+        "Name": "Last Gasp",
+        "Tags": [
+            "Minion",
+            "Persistent",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Minions from Supported Skills die 4 seconds after their Life is reduced to 0."
+        ]
+    },
+    {
+        "Name": "Lasting Shock",
+        "Tags": [
+            "Lightning"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 100% increased Shock duration",
+            "Supported skills have 25% less Chance to Shock"
+        ]
+    },
+    {
+        "Name": "Leverage",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 50% increased Critical Hit chance against Immobilised enemies."
+        ]
+    },
+    {
+        "Name": "Life Drain",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Recover 12% of Life Over Four Seconds when Supported Skills Cull an Enemy"
+        ]
+    },
+    {
+        "Name": "LifeTap",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Skill Mana costs converted to life costs."
+        ]
+    },
+    {
+        "Name": "Lightning Exposure",
+        "Tags": [
+            "Lightning",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills inflict Lightning Exposure for 8 seconds on Shocking and enemy",
+            "Supported Skills deal 25% Less Damage."
+        ]
+    },
+    {
+        "Name": "Lightning Infusion",
+        "Tags": [
+            "Attack",
+            "Lightning"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported attacks gain 25% of damage as extra Lightning Damage",
+            "Supported attacks deal 50% less Cold and Fire Damage"
+        ]
+    },
+    {
+        "Name": "Lockdown",
+        "Tags": [
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 120% more Pin buildup against enemies within 2 meters of you, scaling to no change at 12 meters."
+        ]
+    },
+    {
+        "Name": "Longshot",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 35% more Attack damage to enemies further than 7 metres from you, scaling down to No Bonus at 3.5 metres or closer"
+        ]
+    },
+    {
+        "Name": "Magnified Effect",
+        "Tags": [
+            "AoE"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 40% more area of effect."
+        ]
+    },
+    {
+        "Name": "Martial Tempo",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 25% more Attack Speed"
+        ]
+    },
+    {
+        "Name": "Meat Shield",
+        "Tags": [
+            "Minion"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Minion from Supported Skills deal 35% less damage",
+            "Minions from Supported Skills have 50% more maximum Life"
+        ]
+    },
+    {
+        "Name": "Minion Instability",
+        "Tags": [
+            "Minion",
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Minions from upported skills explode when reduced to low life, dealing 15% of their maximum life as Fire damage to enemies."
+        ]
+    },
+    {
+        "Name": "Minion Pact",
+        "Tags": [
+            "Minion"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills remove 100% of your maximum Life from a nearby Minion on use to deal 40% more damage."
+        ]
+    },
+    {
+        "Name": "Mobility",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 20% less damage",
+            "40% less Movement Speed penalty while using Supported Skills"
+        ]
+    },
+    {
+        "Name": "Momentum",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "After moving at least 2 metres during a single use of a supported skill, the rest of that use deals 40% more damage."
+        ]
+    },
+    {
+        "Name": "Murderous Intent",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Skills empowered by supported skills have Culling Strike"
+        ]
+    },
+    {
+        "Name": "Overabundance",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have +1 to limit",
+            "Supported skills have 50% less duration"
+        ]
+    },
+    {
+        "Name": "Overpower",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Hits with Supported Skills cause 50% more Stun Buildup."
+        ]
+    },
+    {
+        "Name": "Perpetual Charge",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 35% chance to Not Remove Charges but Still Count as Consuming Them."
+        ]
+    },
+    {
+        "Name": "Persistence",
+        "Tags": [
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 40% more skill effect duration"
+        ]
+    },
+    {
+        "Name": "Pierce",
+        "Tags": [
+            "Projectile"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Projectiles from supported skills Pierce an enemy",
+            "Projectiles deal 30% less damage if they've pierced an enemy"
+        ]
+    },
+    {
+        "Name": "Pin",
+        "Tags": [
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills do not cause stun build up",
+            "Physical damage from supported skill is pinning"
+        ]
+    },
+    {
+        "Name": "Precision",
+        "Tags": [
+            "Buff",
+            "Persistent"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "30% Increased accuracy rating while a supported sill is active"
+        ]
+    },
+    {
+        "Name": "Premeditation",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Skills empowered by Supported Skills deal 15% more damage"
+        ]
+    },
+    {
+        "Name": "Primal Armament",
+        "Tags": [
+            "Attack"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 40% more Skill Effect Duration"
+        ]
+    },
+    {
+        "Name": "Profusion",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 50% Chance to Grant an Additional Charge"
+        ]
+    },
+    {
+        "Name": "Rage",
+        "Tags": [
+            "Attack",
+            "Melee"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills grant 3 Rage on Melee Hit"
+        ]
+    },
+    {
+        "Name": "Rageforged",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills consume 10 rage if possible to deal 35% more damage"
+        ]
+    },
+    {
+        "Name": "Rising Tempest",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills deal 12% more Elemental Damage for each Skill Used Recently of a Different Elemental Type"
+        ]
+    },
+    {
+        "Name": "Ruthless",
+        "Tags": [
+            "Support"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Every Fifth use of Supported Attacks causes 500% more Stun Buildup."
+        ]
+    },
+    {
+        "Name": "Scattershot",
+        "Tags": [
+            "Projectile"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 20% less damage",
+            "Supported skills fire 2 additional projectiles",
+            "Supported skills have 20% less attack and cast speed."
+        ]
+    },
+    {
+        "Name": "Second Wind",
+        "Tags": [
+            "TBD"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills have 50% less Cooldown Recovery Rate",
+            "Supported skill have twice as many cooldown uses."
+        ]
+    },
+    {
+        "Name": "Spell Cascade",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [
+            "\u30fbSkills have 20% less Area of Effect"
+        ],
+        "Description": null,
+        "Effects": [
+            "Cascades from skills have 20% less Area of Effect",
+            "Skills deal 30% less damage",
+            "Skills affect areas on either side of the targeted area on a random axis"
+        ]
+    },
+    {
+        "Name": "Spell Echo",
+        "Tags": [
+            "Spell",
+            "AoE"
+        ],
+        "Requirements": [
+            "\u30fbSupported Spells Echo once"
+        ],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have 30% less Cast Speed",
+            "Echoes from Supported Spells have 30% more Area of Effect"
+        ]
+    },
+    {
+        "Name": "Splinter",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Break Armour equal to 15% of Physical Damage dealt by Supported Skill"
+        ]
+    },
+    {
+        "Name": "Stomping Ground",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Physical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Support:",
+            "Triggers a Shockwave when you take a step while using supported skills",
+            "Shockwave:",
+            "Deals 20% to 30% of your strength as Physical Damage. The Shockwave Radius is 1.8 metres"
+        ]
+    },
+    {
+        "Name": "Strip Away",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Exposure applied by Supported Skills has 30% increased effect."
+        ]
+    },
+    {
+        "Name": "Supercritical",
+        "Tags": [
+            "Critical"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "2 to Melee Strike Range",
+            "While Dual Wielding both weapons hit with 30% less Damage",
+            "Cannot cause Stun buildup"
+        ]
+    },
+    {
+        "Name": "Swift Affliction",
+        "Tags": [
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported skills deal 35% more Non-Ailment Damage over time",
+            "20% less duration of supported skills and damaging ailments they inflict"
+        ]
+    },
+    {
+        "Name": "Unbreakable",
+        "Tags": [
+            "None"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "200% more Stun threshold while using supported skills"
+        ]
+    },
+    {
+        "Name": "Unleash",
+        "Tags": [
+            "Spell"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported spells gain a seal every 200% of cast time, to a maximum of 2 seals",
+            "Supported spells are unsealed when cast, and their effects reoccur for each seal lost",
+            "Supported skills deal 50% less damage when reoccurring"
+        ]
+    },
+    {
+        "Name": "Vitality",
+        "Tags": [
+            "Buff",
+            "Persistent"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Regenerate 1% of Life Per Second while a Supported Skill is active"
+        ]
+    },
+    {
+        "Name": "Wildfire",
+        "Tags": [
+            "AoE",
+            "Fire"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Ignites inflicted by Supported Skills spread to other enemies that stay within 1.5 metres for 2 seconds"
+        ]
+    },
+    {
+        "Name": "Wind Wave",
+        "Tags": [
+            "AoE",
+            "Trigger"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Support:",
+            "Trigger Wind Wave when Stunned while using supported skills",
+            "Wind Wave:",
+            "knocks back enemies",
+            "Knock enemies back on hit"
+        ]
+    },
+    {
+        "Name": "Window of Opportunity",
+        "Tags": [
+            "Channelling"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Supported Skills have a 25% shorter Perfect Timing window",
+            "Supported Skills deal 50% more damage when released with Perfect Timing"
+        ]
+    },
+    {
+        "Name": "Withering Touch",
+        "Tags": [
+            "Chaos",
+            "Duration"
+        ],
+        "Requirements": [],
+        "Description": null,
+        "Effects": [
+            "Withered lasts 4 seconds",
+            "Supported skills deal 50% less damage",
+            "Supported skills inflict withered on hit with Chaos damage"
+        ]
+    }
+]
