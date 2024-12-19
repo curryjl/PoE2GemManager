@@ -1,38 +1,2720 @@
 [
-  {
-    "Name": "Raise Shield",
-    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
-    "Tags": [
-      {
-        "Name": "Channeling",
-        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
-      }
-    ],
-    "AttackTime": "1.0",
-    "Requirements": [ "Shield" ]
-  },
-  {
-    "Name": "Raise Shield",
-    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
-    "Tags": [
-      {
-        "Name": "Channeling",
-        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
-      }
-    ],
-    "AttackTime": "1.0",
-    "Requirements": [ "Shield" ]
-  },
-  {
-    "Name": "Raise Shield",
-    "Description": "Raise your shield to Block all incoming blockable hits.  Blocking too much damage while your shield is raised may stagger you.",
-    "Tags": [
-      {
-        "Name": "Channeling",
-        "Description": "Channeling Skills can be held down to gain power or continue to using the Skill for a longer period of time."
-      }
-    ],
-    "AttackTime": "1.0",
-    "Requirements": [ "Shield" ]
-  }
+    {
+        "Name": "Arc",
+        "Tags": [
+            "Lightning",
+            "Chaining"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Chains 2 Times",
+            "10% More damage for each remaining chain"
+        ]
+    },
+    {
+        "Name": "Armour BreakerArmour Breaker",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Physical"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Dex: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Hits Break 15 Armour",
+            "+2 to melee strike range",
+            "Knock enemies back on hit",
+            "40% more Attack Speed while Dual Wielding"
+        ]
+    },
+    {
+        "Name": "Armour Piercing RoundsArmour Piercing Rounds",
+        "Tags": [
+            "Ammunition",
+            "Projectile",
+            "Physical"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Attack Speed: 524% of Base",
+            "Attack Damage: 22%",
+            "Hits Break 2 Armour",
+            "Knocks back Enemies",
+            "Ammunition:",
+            "12 Bolts loaded per clip",
+            "Artillery Ballista \tTotem, AoE, Projectile, Fire, Duration\t9\t31\tStr: 40",
+            "Dex: 40",
+            "Ballista:",
+            "Totem duration is 16 seconds",
+            "Limit 1 Totem",
+            "Totem Base Attack Time is 2.5 seconds",
+            "Totem uses its own weapon dealing 25 to 38 Base Physical Damage",
+            "Artillery:",
+            "Converts 60% of Physical damage to Fire damage",
+            "Bolt explosion radius is 0.5 metres."
+        ]
+    },
+    {
+        "Name": "Ball Lightning",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Sustained",
+            "Lightning"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Int: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Hits enemies in range every 0.2 seconds",
+            "750% more chance to shock",
+            "Fires beams at targets within 1.8 metres"
+        ]
+    },
+    {
+        "Name": "BarrageBarrage",
+        "Tags": [
+            "Buff",
+            "Duration"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Spell:",
+            "Buff empowers your next bow attack to repeat an additional time, plus an additional time per Frenzy Charge consumed",
+            "Repeats deal 57% less damage",
+            "1425% of repeated Skill's Attack Time is added to this skill's cooldown, to a maximum of 30 seconds",
+            "Maximum buff duration is 5 seconds"
+        ]
+    },
+    {
+        "Name": "Bone CageBone Cage",
+        "Tags": [
+            "AoE",
+            "Physical",
+            "Duration",
+            "Nova"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Hits are Pinning",
+            "Pins Enemies as though Dealing 20% more damage",
+            "Cage Radius is 1.8m",
+            "Explosion Radius is 1m",
+            "Cage Duration is 1.6s"
+        ]
+    },
+    {
+        "Name": "Bone Offering",
+        "Tags": [
+            "Buff",
+            "AoE",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Int: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Limit 1 Bone Offering Spike",
+            "Spike duration is 5s",
+            "Explosion:",
+            "Deals 82 to 123 Physical Damage",
+            "100% more Stun buildup"
+        ]
+    },
+    {
+        "Name": "BoneshatterBoneshatter",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Dex: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "+2 Melee strike range",
+            "While Dual Wielding, both weapons hit with 30% less damage",
+            "Cannot cause Stun Buildup"
+        ]
+    },
+    {
+        "Name": "BonestormBonestorm",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Sustained",
+            "Physical",
+            "Duration",
+            "Channelling"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Deals 14 to 21 Physical Damage",
+            "Debuffed enemies take 14 to 21 additional Physical Damage from next attack",
+            "Can fire up to 20 Projectiles",
+            "Debuff duration is 10s",
+            "Explosion:",
+            "Deals 11 to 17 Physical Damage",
+            "Debuffed enemies take 14 to 21 additional physical damage from next attack",
+            "Debuff duration is 10s",
+            "Explosion radius is 0.5M",
+            "40% More AoE per Power Charge consumed",
+            "0.7M to explosion radius if a power Charge was consumed"
+        ]
+    },
+    {
+        "Name": "Chaos BoltChaos Bolt",
+        "Tags": [
+            "Projectile",
+            "Chaos"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Charged Staff IconCharged Staff \tAttack, Buff, AoE, Duration\t9\t31\tStr: 40",
+            "Int: 40\tBuff:",
+            "Buff Grants 1 to 6 added quarterstaff Attack Lightning Damage per Power Charge Consumed, up to your Maximum Power Charges",
+            "Buff Duration is 6 seconds per Power Charge Consumed.",
+            "Shockwave:",
+            "Converts 80% of Physical Damage to Lightning Damage",
+            "Wave Length is 5 Metres"
+        ]
+    },
+    {
+        "Name": "Cluster Grenade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Grenade Fire",
+            "Duration"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 66"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 66",
+            "Primary Grenade:",
+            "Converts 20% of Physical Damage to Fire Damage",
+            "Explosion Radius is 2.5 metres",
+            "Fuse duration is 2 seconds",
+            "Mini Grenades Convert 40% of Physical Damage to Fire Damage;Explosion Radius is 1.2 metres;Fuse Duration is 3 seconds;and Fire exactly 14 grenades in a Nova:"
+        ]
+    },
+    {
+        "Name": "Cold SnapCold Snap",
+        "Tags": [
+            "AoE",
+            "Cold",
+            "Payoff"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Explosion Radius is 0.7 metres.",
+            "Comet IconComet \tAoe, Cold\t11\t41\tInt: 95",
+            "Deals 321 to 482 Cold Damage",
+            "1 second to total cast time"
+        ]
+    },
+    {
+        "Name": "Conductivity",
+        "Tags": [
+            "AoE",
+            "Lightning",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Int: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse radius is 1.7 metres",
+            "Cursed enemies have -32% to Lightning resistance",
+            "Curse duration is 6.4 seconds"
+        ]
+    },
+    {
+        "Name": "ContagionContagion",
+        "Tags": [
+            "AoE",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Modifiers to Spell Damage apply to debuff's damage over time",
+            "Debuff deals 100% more damage for each time it has spread, up to 300%",
+            "Spread radius is 1.7 metres",
+            "Debuff duration is 5 seconds"
+        ]
+    },
+    {
+        "Name": "Dark EffigyDark Effigy",
+        "Tags": [
+            "Totem",
+            "AoE",
+            "Projectile",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Totem Duration is 8s",
+            "Limit of 1 Totem",
+            "Vile Effusion:",
+            "Deals 8 to 15 Chaos Damage",
+            "Impact Radius is 0.8 metres"
+        ]
+    },
+    {
+        "Name": "DespairDespair",
+        "Tags": [
+            "AoE",
+            "Chaos",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Cursed Enemies have -32% to Chaos Resistance",
+            "Curse Radius is 1.8 metres",
+            "Curse Duration is 6.6s"
+        ]
+    },
+    {
+        "Name": "Detonate DeadDetonate Dead",
+        "Tags": [
+            "AoE",
+            "Physical",
+            "Fire",
+            "Detonator"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Int: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Deals Physical damage equal to 20% of Corpse's maximum Life",
+            "Explosion radius is 2.6 metres"
+        ]
+    },
+    {
+        "Name": "Detonating ArrowDetonating Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Fire",
+            "Channelling",
+            "Detonator"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Arrow:",
+            "Gain 120% of damage as extra Fire Damage per stage",
+            "Max 4 stages",
+            "Explosion:",
+            "Explosion radius is 1.8m"
+        ]
+    },
+    {
+        "Name": "EarthquakeEarthquake",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Dex: 9"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact:",
+            "100% Increased Magnitude of Jagged Ground",
+            "When Dual Wielding weapons hit with 30% less damage",
+            "Impact Radius is 1.8M",
+            "Jagged Ground radius is 2.2M",
+            "maximum 2 Jagged Ground Patches",
+            "Jagged Ground duration is 4s",
+            "Aftershock:",
+            "Aftershock radius is 3.4M"
+        ]
+    },
+    {
+        "Name": "Earthshatter",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Dex: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Slam:",
+            "While Dual Wielding both weapons hit with 30% less attack speed",
+            "Maximum of 6 Spikes",
+            "Deals damage along the fissure's path and in a 1M Radius around the emerging spike",
+            "Spike duration is 6s",
+            "Explosion:",
+            "Explosion Radius is 2 Metres"
+        ]
+    },
+    {
+        "Name": "Electrocuting ArrowElectrocuting Arrow",
+        "Tags": [
+            "Projectile",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 50% of Physical Damage to Lightning Damage",
+            "+1.2 seconds to Total Attack time",
+            "Cannot Chain",
+            "Arrow duration 12 seconds"
+        ]
+    },
+    {
+        "Name": "Ember FusilladeEmber Fusillade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Fire",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Embers deal 5% more damage for each previous Ember fired in sequence",
+            "Hover duration is 1.3 seconds",
+            "Can Accumulate up to 6 embers"
+        ]
+    },
+    {
+        "Name": "Emergency ReloadEmergency Reload",
+        "Tags": [
+            "Duration"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 52",
+            "maximum Buff duration is 6 seconds",
+            "Buff Empowers loaded bolts with 22% more damage"
+        ]
+    },
+    {
+        "Name": "EnfeebleEnfeeble",
+        "Tags": [
+            "AoE",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse applies after 1.0s delay",
+            "Curse Rradius is 1.6 metres",
+            "Curse duration is 6.2s",
+            "Cursed normal, magic or rare enemies deal 20% less damage",
+            "Cursed unique enemies deal 10% less damage"
+        ]
+    },
+    {
+        "Name": "Escape ShotEscape Shot",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Cold"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "+0.7 seconds to Total Attack Time",
+            "300% more Freeze Buildup",
+            "Impact radius is 2.4 metres"
+        ]
+    },
+    {
+        "Name": "Essence DrainEssence Drain",
+        "Tags": [
+            "Projectile",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Deals 9 to 16 Chaos Damage.",
+            "Damage Over Time:",
+            "Deals 15 base Chaos damage per second",
+            "Modifiers Spell damage apply to Debuff's Damage over time",
+            "Debuff duration is 4 seconds",
+            "Explosive Grenade IconExplosive Grenade \tAoE, Projectile, Grenade, Fire, Duration, Detonator\t1\t1\tNone",
+            "Converts 80% of Physical Damage to Fire Damage",
+            "Explosion radius is 1.8 meters",
+            "Fuse duration is 2.5 seconds"
+        ]
+    },
+    {
+        "Name": "Explosive Shot",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Fire",
+            "Detonator"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 30",
+            "Explosive Shot - Projectile:",
+            "Converts 30% of Physical Damage to Fire Damage",
+            "Knocks Back enemies",
+            "Explosive Shot - Explosion:",
+            "Converts 80% of Physical Damage to Fire Damage",
+            "Knocks Back enemies",
+            "Explosion Radius is 2.6 metres",
+            "Ammunition:",
+            "30% less reload speed",
+            "1 bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Eye of Winter",
+        "Tags": [
+            "Projectile",
+            "Cold"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Fires 8 shard projectiles in a spiral when projectile ends",
+            "Modifiers to number of projectiles only apply to the final spiral",
+            "Inflicts Critical Weakness on hit",
+            "Gains 52% of damage as the corresponding type when passing over a ground surface",
+            "Falling Thunder IconFalling Thunder \tAoE, Melee, Slam, Projectile, Lightning\t1\t1\tNone\tMelee:",
+            "Converts 60% of Physical Damage to Lightning Damage",
+            "Cone Length is 4 Metres"
+        ]
+    },
+    {
+        "Name": "FireballFireball",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Fire"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": []
+    },
+    {
+        "Name": "Firestorm",
+        "Tags": [
+            "AoE",
+            "Sustained",
+            "Fire",
+            "Duration",
+            "Payoff"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Int: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact Radius is 1 Metre",
+            "Storm Radius is 5.6 Metres",
+            "Storm duration is 6 seconds",
+            "One impact every .1 seconds",
+            "Limit 1 Firestorm"
+        ]
+    },
+    {
+        "Name": "Flame WallFlame Wall",
+        "Tags": [
+            "AoE",
+            "Fire",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Projectiles which pass through the wall deal 2 to 3 added Fire Damage",
+            "Ignites as though dealing 13 to 20 Fire Damage"
+        ]
+    },
+    {
+        "Name": "Flameblast",
+        "Tags": [
+            "AoE",
+            "Fire",
+            "Channelling",
+            "Nova"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "30% more Cast Speed when tartgeting a Solar Orb",
+            "200% more damage per stage",
+            "10 maximum stages",
+            "Explosion radius is 0.4 metres per stage"
+        ]
+    },
+    {
+        "Name": "FlammabilityFlammability",
+        "Tags": [
+            "AoE",
+            "Fire",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Int: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse radius is 1.7 metres",
+            "Cursed enemies have -32% to Fire resistance",
+            "Curse duration is 6.4 seconds"
+        ]
+    },
+    {
+        "Name": "Flash GrenadeFlash Grenade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Grenade",
+            "Duration"
+        ],
+        "Level": 2,
+        "Requirements": [
+            "Str: 10"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 10",
+            "400% more Stun Buildup",
+            "Explosion radius is 2.5 meters",
+            "Fuse duration is 0.85 seconds",
+            "Blinds enemies and allies"
+        ]
+    },
+    {
+        "Name": "Flicker Strike",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 66"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 66",
+            "Teleports and strikes two additional times per power Charge with 285% more attack speed. You cannot gain power charges while using this skill",
+            "Fragmentation Rounds IconFragmentation Rounds \tAmmunition, Projectile, Payoff\t1\t3\tNone\tFragmentation Rounds Projectile:",
+            "Knocks Back Enemies",
+            "Multiple Fragments can hit the same target",
+            "Multiple fragments hitting a target simultaneously will combine their damage into a single hit",
+            "Bolts pierce 2 Targets",
+            "Fires 10 fragments per shot.",
+            "Fragmentation Rounds VS Frozen:",
+            "Base explosion is 1.4 metres",
+            "Ammunition:",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Freezing Mark",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Mark",
+            "Cold",
+            "Duration",
+            "Nova"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 30\tMark:",
+            "Limit 1 Marked target",
+            "Mark duration is 8 seconds",
+            "Hits against Marked enemy cause 28% more Freeze Buildup",
+            "Nova:",
+            "24 to 36 Base Cold Damage",
+            "+12% to Critical hit chance",
+            "100% more Freeze Buildup",
+            "Nova radius is 2.6 meters"
+        ]
+    },
+    {
+        "Name": "Freezing SalvoFreezing Salvo",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Cold"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 80% of Physical Damage to Cold Damage",
+            "50% more Freeze buildup",
+            "Impact radius is 1.2 metres",
+            "Accumulates up to 12 missiles",
+            "Accumulates a missile every 1 second"
+        ]
+    },
+    {
+        "Name": "Frost BombFrost Bomb",
+        "Tags": [
+            "AoE",
+            "Cold",
+            "Duration",
+            "Orb"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Pulse and Explosion Radius are 1.7 meters",
+            "Exposure Duration is 5 Seconds",
+            "Orb Duration is 3 Seconds"
+        ]
+    },
+    {
+        "Name": "Frost WallFrost Wall",
+        "Tags": [
+            "AoE",
+            "Cold",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "50% more Freeze buildup",
+            "Explosion Radius is 2 metres",
+            "Ice Crystal duration is 8 seconds",
+            "Ice Crystals have 832 maximum life"
+        ]
+    },
+    {
+        "Name": "FrostboltFrostbolt",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Cold",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Projectiles pierce all targets",
+            "100% increased magnitude of Chill inflicted",
+            "Chilled Ground radius is 0.9 metres",
+            "Chilled Ground duration is 4 seconds",
+            "Frozen Locus IconFrozen Locus \tAoE, Melee, Cold, Duration, Nova\t1\t1\tNone",
+            "6 to 9 Base Cold Damage",
+            "13% to Critical Hit chance",
+            "50% more Freeze buildup",
+            "Explosion radius is 2 Metres"
+        ]
+    },
+    {
+        "Name": "Galvanic ShardsGalvanic Shards",
+        "Tags": [
+            "Ammunition",
+            "Projectile",
+            "Lightning",
+            "Chaining"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 20"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 20",
+            "Galvanic Shards:",
+            "Converts 40% of Physical Damage to Lightning Damage",
+            "Knocks Back enemies",
+            "Multiple fragments can Hit the same target",
+            "Multiple fragments Hitting a target simultaneously will combine their damage into a single Hit",
+            "Fires 6 Fragments per shot",
+            "Ammunition:",
+            "50% Less Reload Speed",
+            "5 Bolts loaded per Clip",
+            "Beam:",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "Beam Chains to 1 enemy"
+        ]
+    },
+    {
+        "Name": "Gas ArrowGas Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Fire",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Arrow:",
+            "Impact Radius is 1.8 metres",
+            "Poison Cloud:",
+            "Attack Damage: 180%",
+            "Does not Hit, but Poisons enemies as though Hitting them",
+            "Gains 50% more AoE per second up to 200%",
+            "Cloud duration 4 seconds",
+            "Cloud radius 1.8 metres",
+            "Explosion:",
+            "Converts 100% of Physical Damage to Fire Damage"
+        ]
+    },
+    {
+        "Name": "Gas GrenadeGas Grenade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Grenade",
+            "Fire",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 20"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 20",
+            "Impact:",
+            "Impact radius is 1.5 meters",
+            "Fuse duration is 2 seconds",
+            "Poison Cloud:",
+            "Attack Damage: 128%",
+            "Does not Hit, but Poisons enemies as though Hitting them",
+            "Gains 20% more area of effect per second, up to a maximum of 160%",
+            "Cloud radius is 1.5 meters",
+            "Explosion:",
+            "Attack Damage: 342%",
+            "Converts 100% of Physical Damage to Fire Damage"
+        ]
+    },
+    {
+        "Name": "Gathering Storm",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Lightning",
+            "Channelling",
+            "Travel"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 66"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 66\tNormal Dash:",
+            "Converts 25% of Physical Damage to Lightning Damage",
+            "0.8 seconds to Total Attack Time",
+            "10 to Melee strike range",
+            "Perfect Dash:",
+            "Converts 70% of Physical Damage to Lightning Damage",
+            "10 to Melee strike range",
+            "Shocked Ground width is 1.8 metres",
+            "Shockwave:",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "10 to Melee Strike range",
+            "Shockwave Radius is 2.2 metres",
+            "maximum 8 Shockwaves per use"
+        ]
+    },
+    {
+        "Name": "Glacial BoltGlacial Bolt",
+        "Tags": [
+            "Aoe",
+            "Ammunition",
+            "Projectile",
+            "Cold",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 30",
+            "Glacial Bolt Projectile:",
+            "Converts 60% of Physical Damage to Cold Damage",
+            "Knocks Back Enemies",
+            "Glacial Bolt Wall:",
+            "Converts 100% of Physical Damage to Cold Damage",
+            "Explosion Radius is 1.8 meters",
+            "Wall lasts 6.0s",
+            "Ammunition:",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Glacial CascadeGlacial Cascade",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Cold",
+            "Payoff"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 60% of Physical Damage to Cold Damage",
+            "Burst Radius is 0.5 Metres",
+            "Wave Length is 4.8 Metres",
+            "Causes 8 Bursts",
+            "Final Burst:",
+            "Attack Damage: 145%",
+            "Converts 60% of Physical Damage to Cold Damage",
+            "Cannot Freeze",
+            "Consumes Freeze on enemies to deal 350% more Damage",
+            "Cannot Knock Enemies Back",
+            "Burst radius is .7 metres"
+        ]
+    },
+    {
+        "Name": "Hailstorm Rounds",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Sustained",
+            "Cold"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 52",
+            "Hailstorm Rounds:",
+            "Converts 80% of Physical Damage to Cold Damage",
+            "Impact Radius is 1.2 metres",
+            "Rain radius is 2.5 metres",
+            "Ammunition:",
+            "50% less reload speed",
+            "Can store up to 20 bolts"
+        ]
+    },
+    {
+        "Name": "Hammer of the GodsHammer of the Gods",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Duration"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Dex: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Can't be Evaded",
+            "While Dual Wielding both weapons hit with 30% less damage",
+            "Impact Radius is 2.4 metres",
+            "Hammerfall duration is 2.5 seconds"
+        ]
+    },
+    {
+        "Name": "Hexblast",
+        "Tags": [
+            "AoE",
+            "Chaos Payoff"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Int: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Explosion Radius is 1.6 Metres",
+            "Detonates Curses on enemies in a 2.5 metre radius",
+            "Maximum 9 Explosions per Cast"
+        ]
+    },
+    {
+        "Name": "High Velocity RoundsHigh Velocity Rounds",
+        "Tags": [
+            "Ammunition",
+            "Projectile",
+            "Physical",
+            "Payoff"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 10"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 10",
+            "High Velocity Rounds Projectile:",
+            "Attack Damage: 182%",
+            "Knocks back Enemies",
+            "Bolts Pierce 6 Targets",
+            "High Velocity Rounds VS Armour Broken:",
+            "Attack Damage: 411%",
+            "Knocks back Enemies",
+            "Bolts Pierce 6 Targets",
+            "Ammunition:",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "HypothermiaHypothermia",
+        "Tags": [
+            "AoE",
+            "Cold",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Int: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse radius is 1.7 metres",
+            "Cursed enemies have -32% to Cold resistance",
+            "Curse duration is 6.4 seconds",
+            "Ice Nova \tAoE, Cold, Nova\t1\t1\tNone",
+            "Deals 4 to 6 Cold Damage",
+            "100% more magnitude of Chill inflicted",
+            "Knock enemies back on hit",
+            "Nova radius is 3.2 metres"
+        ]
+    },
+    {
+        "Name": "Ice ShotIce Shot",
+        "Tags": [
+            "Projectile",
+            "Cold"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Arrow:",
+            "Converts 70% of Physical Damage to Cold Damage",
+            "50% more Magnitude of Chill inflicted",
+            "Shards:",
+            "Attack Damage: 137%",
+            "Converts 100% of Physical Damage to Cold Damage",
+            "Fires 5 Projectiles"
+        ]
+    },
+    {
+        "Name": "Ice StrikeIce Strike",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Strike",
+            "Cold"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 20"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 20\tNormal Strikes:",
+            "Converts 80% of Physical Damage to Cold Damage",
+            "Third Strike:",
+            "50% Less Attack Speed",
+            "Converts 80% of Physical Damage to Cold Damage",
+            "+7 to Melee Strike Range"
+        ]
+    },
+    {
+        "Name": "Incendiary Shot",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Fire"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 10"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 10",
+            "Incendiary Shot:",
+            "Converts 80% of Physical Damage to Fire Damage",
+            "Knock back enemies",
+            "100% more chance to Ignite enemies",
+            "Bolts shatter on impact dealing damage in a 1.9M cone",
+            "Multiple fragments can hit the same target",
+            "Multiple fragments that hit the same target will combine into a single hit",
+            "Fires 10 Fragments per shot",
+            "Ammunition:",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Incinirate",
+        "Tags": [
+            "AoE",
+            "Sustained",
+            "Fire",
+            "Duration",
+            "Channelling"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Cone length is 4.6 metres",
+            "Deals 40% more damage per stage",
+            "Inflicts stacking Fire exposure at maximum stages, reducing Fire Resistance by 4% per stack, up to a maximum of 50%",
+            "8 maximum stages",
+            "Ignites as though dealing 28 to 42 Fire Damage."
+        ]
+    },
+    {
+        "Name": "Infernal CryInfernal Cry",
+        "Tags": [
+            "AoE",
+            "Trigger",
+            "Fire",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Dex: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "4% increased Warcry speed",
+            "Empowers the next melee attack you perform, plus an additional attack per endurance charge consumed",
+            "Empowered attacks gain 25% of damage as fire damage per 5 Power of enemies in range, up to 100%",
+            "Warcry radius is 4 metres",
+            "Destabilises enemies for 8 seconds"
+        ]
+    },
+    {
+        "Name": "Killing PalmKilling Palm",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Physical"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 30",
+            "24 to 36 Added Attack Physical Damage",
+            "Culling Strike",
+            "Can't be Evaded",
+            "7% to Critical Hit Chance"
+        ]
+    },
+    {
+        "Name": "Leap SlamLeap Slam",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Travel",
+            "Payoff"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Dex: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "+0.65 seconds to Total Attack Time, plus up to +0.5% seconds based on distance travelled",
+            "While Dual Wielding, both weapons hit with 30% less damage",
+            "26% more Stun buildup",
+            "Impact radius is 2.5 metres",
+            "Consumes fully broken armour on enemies to cause 500% more Stun buildup"
+        ]
+    },
+    {
+        "Name": "Lightning ArrowLightning Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Lightning",
+            "Chaining"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 40% of Physical Damage to Lightning Damage",
+            "Cannot Chain",
+            "Beam targeting radius is 2.4 metres",
+            "Fires beams at up to 2 additional enemies near the target",
+            "Beam:",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "Chains 2 Times",
+            "Beam targeting radius is 2.4 metres"
+        ]
+    },
+    {
+        "Name": "Lightning Conduit",
+        "Tags": [
+            "AoE",
+            "Lightning",
+            "Payoff"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "1 second to total cast time",
+            "100% more Damage with hits per 5% shock effect on enemy",
+            "Cone Length is 10 metres"
+        ]
+    },
+    {
+        "Name": "Lightning RodLightning Rod",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Sustained",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Burst radius is 2 metres",
+            "Maximum Arrow duration is 12 seconds",
+            "Arrow disappears after being Chained to 8 times"
+        ]
+    },
+    {
+        "Name": "Lightning Warp",
+        "Tags": [
+            "AoE",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Explosion and shocked ground radius are 4 metres",
+            "Shocked ground duration is 10 seconds"
+        ]
+    },
+    {
+        "Name": "Magnetic SalvoMagnetic Salvo",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Lightning"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact:",
+            "Converts 80% of Physical Damage to Lightning Damage",
+            "Impact radius is 1m",
+            "Fires up to 14 missiles",
+            "Explosion:",
+            "Attack Damage: 288%",
+            "Converts 80% of Physical Damage to Lightning Damage",
+            "Explosion radius is 2.4m"
+        ]
+    },
+    {
+        "Name": "Mana Tempest",
+        "Tags": [
+            "Buff",
+            "Lightning"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Buff causes lightning spells that cost mana to also chain to +1 target when chaining, but not chain further from them",
+            "Projectiles from empowered lightning spells fork 30% of mana spent while in the storm is added to this skill's mana cost per second"
+        ]
+    },
+    {
+        "Name": "Mantra of Destruction",
+        "Tags": [
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 40"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 40",
+            "Requires 10 Combo to use",
+            "Lose Combo if you generate no Combo for 8 seconds",
+            "Empowered attack gains 30% of damage as Chaos",
+            "Buff duration is up to 8s or until your next attack",
+            "Purple Flames of Chayula duration is 6s"
+        ]
+    },
+    {
+        "Name": "Molten BlastMolten Blast",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Fire"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Dex: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Projectile:",
+            "Converts 60% of Physical Damage to Fire Damage",
+            "While Dual Wielding, fire twice as many projectiles with 30% less attack speed",
+            "Explosion radius is 1.6 metres",
+            "Shrapnel:",
+            "Attack Damage: 114%",
+            "Converts 100% Physical Damage to Fire Damage",
+            "Fires 8 Projectiles"
+        ]
+    },
+    {
+        "Name": "Oil GrenadeOil Grenade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Grenade",
+            "Fire",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 40"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 40",
+            "Covering enemies in Oil Slows their movement speed by 20%",
+            "Covering enemies in Oil applies Fire Exposure, lowering total Fire Resistance by 20%",
+            "Oil Ground slows enemy movement speed by 30%",
+            "Oil Ground applies Fire Exposure to enemies, lower total Fire Resistance by 20%",
+            "Oil spray radius is 2.2 metres",
+            "Oil and Oil Ground duration is 5 seconds",
+            "Fuse Duration is 1.6 seconds"
+        ]
+    },
+    {
+        "Name": "Orb of StormsOrb of Storms",
+        "Tags": [
+            "AoE",
+            "Sustained",
+            "Lightning",
+            "Duration",
+            "Chaining",
+            "Orb"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Chains 3 times",
+            "Fires a bolt every 3.4 seconds, and when you use a lightning skill near the orb",
+            "Orb disappears after 12 bolts",
+            "Orb radius is 2.8 metres",
+            "Orb duration is 10 seconds",
+            "Limit of 1 Orb of Storms"
+        ]
+    },
+    {
+        "Name": "Pain OfferingPain Offering",
+        "Tags": [
+            "Buff",
+            "AoE",
+            "Aura",
+            "Duration"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Aura Radius is 6 Metres",
+            "Spike Duration is 6 seconds",
+            "Aura grants minions 30% increased attack and cast speed"
+        ]
+    },
+    {
+        "Name": "Perfect StrikePerfect Strike",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Fire",
+            "Duration",
+            "Channeling"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Dex: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Normal Strikes:",
+            "Converts 40% of Physical Damage to Fire Damage",
+            "While Dual Wielding, both weapons hit with 30% less damage",
+            "Perfect Strike:",
+            "Converts 80% of Physical Damage to Fire Damage",
+            "+14 to Melee Strike Range",
+            "While Dual Wielding, both weapons hit with 30% less damage",
+            "Always Ignites",
+            "0-20% increased Magnitude of Ignite you inflict (from Quality)"
+        ]
+    },
+    {
+        "Name": "Permafrost BoltsPermafrost Bolts",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Cold"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 80% of Physical Damage to Cold Damage",
+            "Knocks Back Enemies",
+            "80% more Freeze Buildup",
+            "Bolts shatter on impact, dealing damage in a 2.7 metre cone",
+            "Multiple fragments can Hit the same target",
+            "Multiple fragments hitting a target simultaneously will combine their damage into a single Hit",
+            "Fires 10 fragments per shot",
+            "Ammunition:",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Plasma Blast",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Lightning",
+            "Chanelling"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 66"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 66",
+            "Plasma Blast - Projectile:",
+            "Projectiles Pierce",
+            "all targets",
+            "Converts 70% of Physical Damage to Lightning Damage",
+            "2 seconds to Total Attack time",
+            "Knocks back enemies",
+            "30% more chance to shock",
+            "Plasma Blast - Explosion:",
+            "Converts 100% Physical Damage to Lightning Damage",
+            "30% more chance to Shock",
+            "Explosion radius is 3.2 metres",
+            "Ammunition:",
+            "1 bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Poisonburst ArrowPoisonburst Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "None"
+        ],
+        "Description": null,
+        "Effects": [
+            "Profane Ritual \tAoE, Chaos, Duration\t7\t22\tInt: 52",
+            "Deals 59.2 Base Chaos Damage per Second",
+            "Limit 5 Active Rituals",
+            "Ritual Radius is 1.8 metres",
+            "Ritual Duration is 2s"
+        ]
+    },
+    {
+        "Name": "Rain of ArrowsRain of Arrows",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Sustained"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Fires 34 Arrows",
+            "Rain radius 3.6m",
+            "Arrow impact radius .7m",
+            "Max 1 Arrow rain",
+            "One arrow lands every .08s",
+            "Fires 100% more Arrows if Frenzy Charge consumed",
+            "Fires 50% more Arrows per Frenzy Charge consumed"
+        ]
+    },
+    {
+        "Name": "Raise ZombieRaise Zombie",
+        "Tags": [
+            "Physical",
+            "Duration"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Zombie duration is 20s",
+            "Empowered Zombies take 30% less damage",
+            "Empowered Zombies deal 100% moore damage with hits",
+            "Empowered Zombies have 25% more Movement Speed"
+        ]
+    },
+    {
+        "Name": "Rapid Shot",
+        "Tags": [
+            "Ammunition",
+            "Projectile",
+            "Fire"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 20"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 20",
+            "Rapid Shot:",
+            "Converts 60% of Physical to Fire Damage",
+            "Knocks Back enemies",
+            "Maximum 17 Heat",
+            "Rapid Shots Gain 7% of Damage as extra Fire damage per Heat",
+            "Charges for 800% of Attack Time before firing when you have no Heat",
+            "Gain Heat 4x per second while firing",
+            "Grenades Gain 6% extra Fire damage per Heat",
+            "Ammunition:",
+            "50% less reload speed",
+            "50 bolts per clip"
+        ]
+    },
+    {
+        "Name": "Resonating Shield",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Sustained",
+            "Physical",
+            "Channelling"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Dex: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Hits Break 14 Armour",
+            "10 to 16 Base Off Hand Physical damage",
+            "2 to 3 added Physical damage per 15 Armour on Shield",
+            "Cannot be Empowered by Warcries",
+            "Shockwave Radius 1.8 Metres"
+        ]
+    },
+    {
+        "Name": "Ripwire Ballista",
+        "Tags": [
+            "Totem",
+            "Projectile",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 30",
+            "Ballista:",
+            "Totem duration is 16 seconds",
+            "Limit 1 Totem",
+            "Totem base Attack Time is 1.6 seconds",
+            "Totem uses its own weapon dealing 24 to 36 Base Physical Damage",
+            "Bolts:",
+            "Hits are Pinning",
+            "Pins enemies as though dealing 250% more damage,Fires 5 Projectiles,Maim on hit"
+        ]
+    },
+    {
+        "Name": "Rolling SlamRolling Slam",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Dex: 9"
+        ],
+        "Description": null,
+        "Effects": [
+            "Rolling Slam:",
+            "1.5 seconds to Total Attack Time",
+            "While Dual Wielding, both weapons hit with 30% less damage",
+            "First Slam:",
+            "Attack Damage: 88%",
+            "50% more Stun buildup",
+            "Impact radius is 1.4 metres",
+            "Causes Daze buildup equal to 0-50% of Physical Damage dealt (from Quality)",
+            "Second Slam:",
+            "Attack Damage: 176%",
+            "Impact radius is 1.8 metres",
+            "Causes Daze buildup equal to 0-50% of Physical Damage dealt (from Quality)"
+        ]
+    },
+    {
+        "Name": "Seismic CrySeismic Cry",
+        "Tags": [
+            "AoE",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Dex: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Deals 50-75 Physical Damage",
+            "20% increased Warcry Speed",
+            "200% increased Knockback distancel400% more Stun Buildup",
+            "Knockback enemies on hit",
+            "Hits ignore enemy Physical Damage Reduction",
+            "Empowers the next Melee Slam Attack",
+            "Additional Attack per Endurance Charge consumed",
+            "Warcry radius is 4M"
+        ]
+    },
+    {
+        "Name": "Shattering Palm",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Cold",
+            "Nova"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 52\tMelee:",
+            "45 to 68 added Cold damage",
+            "Can't be Evaded",
+            "9% to Critical Hit chance",
+            "Attaches shards to enemies within a 3.8 metre radius",
+            "Explosion:",
+            "24 to 36 added Cold damage",
+            "11% to Critical Hit chance",
+            "100% more Freeze buildup",
+            "Explosion radius is 1.6 metres"
+        ]
+    },
+    {
+        "Name": "Shield Charge",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Physical",
+            "Channelling",
+            "Travel"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Dex: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Area of Effect:",
+            "7 to 10 Base Off Hand Physical damage",
+            "2 to 3 added Physical Damage per Armour on Shield",
+            "Impact Radius is 2.4 metres",
+            "Collision:",
+            "7 to 10 Base Hand Physical Damage",
+            "Knock Back enemies",
+            "2 to 3 added Physical damage per 15 Armour on Shield",
+            "50% more Stun Buildup",
+            "Impact Radius is 2.4 Metres"
+        ]
+    },
+    {
+        "Name": "Shield Wall",
+        "Tags": [
+            "AoE",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Dex: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Can have 1 Shield Wall active at a time",
+            "15 to 23 Base Off Hand Physical damage",
+            "2 to 4 added Physical damage per 15 armor on the shield",
+            "Explosion radius is 2M",
+            "Wall duration is 6s",
+            "Wall Segments have 460 maximum Life"
+        ]
+    },
+    {
+        "Name": "Shockburst Rounds",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Lightning",
+            "Payoff"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 52",
+            "Shockburst Rounds - Projectile:",
+            "Converts Physical damage to Lightning damage",
+            "Shockburst Rounds - Pulse:",
+            "Converts 100% of Physical damage to Lightning Damage",
+            "Pulse radius is 1.8 metres",
+            "Ammunition:",
+            "20% less reload speed",
+            "15 bolts loaded per clip"
+        ]
+    },
+    {
+        "Name": "Shockchain ArrowShockchain Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Lightning",
+            "Chaining",
+            "Payoff"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Projectile:",
+            "Converts 20% of Physical Damage to Lightning Damage",
+            "Cannot Chain",
+            "Arrows always Pierce while flying towards a Shocked enemy",
+            "Beam:",
+            "Attack Damage: 80%",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "Chains up to 10 times",
+            "Shockwave:",
+            "Attack Damage: 121%",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "Shockwave radius is 2.5m"
+        ]
+    },
+    {
+        "Name": "Shockwave Totem",
+        "Tags": [
+            "Totem",
+            "AOE",
+            "Melee",
+            "Slam",
+            "Physical",
+            "Duration",
+            "Nova"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Dex: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Totem:",
+            "Totem duration is 12s",
+            "Limit of 1 Totem",
+            "Totem Base Attack Time is 3s",
+            "Totem uses its own weapon dealing 10 to 16 base Physical Damage",
+            "Slam:",
+            "Shockwave radius is 3 metres"
+        ]
+    },
+    {
+        "Name": "Siege Cascade",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Sustained",
+            "Fire",
+            "Payoff"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 66"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 66",
+            "Siege Cascade - Impact:",
+            "Convert 80% of Physical Damage to Fire Damage",
+            "fire bolts at every enemy within a 2.5-metre radius",
+            "Bolt explosion radius is 0.5 meters",
+            "200% more damage against immobilized enemies",
+            "Siege Cascade - Explosion:",
+            "Converts 80% of Physical Damage to Fire Damage",
+            "Fires Bolts at every enemy within a 2.5 metre radius",
+            "Bolt explosion radius is 1 metre",
+            "200% more damage against immobilised enemies",
+            "Ammunition:",
+            "50% less reload speed",
+            "1 Bolt loaded per clip"
+        ]
+    },
+    {
+        "Name": "Siphoning Strike",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Lightning",
+            "Payoff"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 30\tDash:",
+            "6 to Melee Strike Range",
+            "50% more Stun Buildup",
+            "Knock enemies back on Hit",
+            "Shockwave:",
+            "Converts 100% of Physical Damage to Lightning Damage,50% more Stun Buildup",
+            "Shockwave radius is 1.8 meters"
+        ]
+    },
+    {
+        "Name": "Skeletal ArsonistSkeletal Arsonist",
+        "Tags": [
+            "Persistent",
+            "Fire",
+            "Detonator"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Reviving Skeletal Arsonists",
+            "Can detonate other Minions on Command"
+        ]
+    },
+    {
+        "Name": "Skeletal BruteSkeletal Brute",
+        "Tags": [
+            "Minion",
+            "Persistent",
+            "Physical"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": []
+    },
+    {
+        "Name": "Skeletal ClericSkeletal Cleric",
+        "Tags": [
+            "Minion",
+            "Persistent"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Revive a fallen Skeleton",
+            "Heal:",
+            "Life Regeneration granted: 13"
+        ]
+    },
+    {
+        "Name": "Skeletal Frost Mage",
+        "Tags": [
+            "Persistent",
+            "Cold"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Skills can be managed in the Skills Panel",
+            "Command: Ice Bomb:",
+            "Deals 28 to 43 Cold Damage",
+            "100% More Magnitude or Chill Inflicted",
+            "Explosion Radius is 2.6m"
+        ]
+    },
+    {
+        "Name": "Skeletal ReaverSkeletal Reaver",
+        "Tags": [
+            "Minion",
+            "Persistent",
+            "Physical"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Int: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "None",
+            "Command: Enrage:",
+            "Enrage all Skeletal Reavers, causing them to lose life over time and gain Rage on hit. Skeletal Reavers do more Attack Damage and gain increased Attack speed based on their Rage."
+        ]
+    },
+    {
+        "Name": "Skeletal SniperSkeletal Sniper",
+        "Tags": [
+            "Persistent",
+            "Physical",
+            "Fire",
+            "Chaos"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Int: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "None",
+            "Command: Gas Arrow - Impact:",
+            "Cooldown Time: 8.00s",
+            "Attack Speed: 120% Base",
+            "Attack Damage: 70%",
+            "Command: Gas Arrow - Poison Cloud:",
+            "Does not hit, but Poisons enemies as though hitting them",
+            "Gains 40% more area of effectper second, up to a maximum of 200%",
+            "Cloud Duration is 8s",
+            "Cloud Radius is 1.4 metres",
+            "Command: Gas Arrow - Explosion:",
+            "Converts 100% of Physical damage to Fire Damage"
+        ]
+    },
+    {
+        "Name": "Skeletal Storm Mage",
+        "Tags": [
+            "Persistent",
+            "Lightning"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Int: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Minions Gain 0(0-20)% of their maximum Life as extra maximum Energy Shield",
+            "Command: Death Storm:",
+            "Deals 74 to 418 Lightning Damage",
+            "Bolt Explosion radius is 1.8 metres",
+            "Shocked Ground radius is 1.8 metres",
+            "Shocked Ground duration is 6s",
+            "Skeletal Warrior IconSkeletal Warrior \tPersistent, Physical\t1\t1\tInt: 8",
+            "Summons Reviving Skeletal Minions."
+        ]
+    },
+    {
+        "Name": "SnipeSnipe",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Channelling"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Arrow:",
+            "200% increased Critical Damage Bonus",
+            "Explosion:",
+            "200% increased Critical Damage Bonus",
+            "Explosion Radius is 1.5 metres"
+        ]
+    },
+    {
+        "Name": "SniperSniper's Mark",
+        "Tags": [
+            "Mark",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Limit 1 Marked target",
+            "Maximum Mark duration 8 seconds",
+            "Next Critical Hit against Marked enemy has +38% Critical Damage Bonus"
+        ]
+    },
+    {
+        "Name": "Solar OrbSolar Orb",
+        "Tags": [
+            "AoE",
+            "Sustained",
+            "Fire",
+            "Duration",
+            "Orb"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Int: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Pulses every 1.4 seconds",
+            "Explosion radius is 2.5 metres",
+            "Orb duration is 10 seconds",
+            "Limit to 1 Solar Orb"
+        ]
+    },
+    {
+        "Name": "Soul Offering",
+        "Tags": [
+            "Buff",
+            "Duration"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Spike Duration is 4s",
+            "Buff grants you 32% more Spell Damage",
+            "Spark \tProjectile, Lightning, Duration\t1\t1\tNone",
+            "Deals 1 to 8 Lightning Damage",
+            "Fires 6 Projectiles",
+            "Projectile Duration is 2 Seconds"
+        ]
+    },
+    {
+        "Name": "Spiral VolleySpiral Volley",
+        "Tags": [
+            "Projectile",
+            "Sustained"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Str: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "+.4 seconds to Total Attack time",
+            "Fires 2 Arrow",
+            "Chains once per Frenzy Charge consumed",
+            "20% more Damage per Frenzy Charge consumed",
+            "100% more Damage if a Frenzy Charge was consumed"
+        ]
+    },
+    {
+        "Name": "Staggering Palm",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike",
+            "Projectile",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 10"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 10\tStaggering Palm:",
+            "10 to 16 added Attack Physical Damage",
+            "Can't be Evaded",
+            "+7% to Critical Hit chance",
+            "Buff Duration is 6s",
+            "Projectile (Quarterstaff):",
+            "Projectiles Pierce all targets",
+            "Projectile (Unarmed):",
+            "Projectiles pierce all targets",
+            "10 to 16 added Physical damage",
+            "+7% to Critical Hit chance"
+        ]
+    },
+    {
+        "Name": "Stampede",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Duration",
+            "Travel"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Dex: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Footsteps:",
+            "While Dual Wielding both weapons hit with 30% less damage",
+            "Jagged Ground duration is 6 seconds",
+            "Impact and Jagged Ground radius are 1.2 metres",
+            "Slam:",
+            "While Dual Wielding both weapons hit with 30% less damage",
+            "the impact radius is 3.2 metres",
+            "Explosion:",
+            "While Dual Wielding both weapons hit with 30% less damage",
+            "Detonates Jagged Ground within 3.2 metres radius of slam and each patch of Jagged Ground detonated."
+        ]
+    },
+    {
+        "Name": "Storm WaveStorm Wave",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Lightning"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 30",
+            "Converts 80% of Physical Damage to Lightning Damage",
+            "Wave Length is 8 Metres",
+            "Wave Width is 1 Metre"
+        ]
+    },
+    {
+        "Name": "Stormblast Bolts",
+        "Tags": [
+            "AoE",
+            "Ammunition",
+            "Projectile",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Str: 40"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 40",
+            "Stormblast Bolts - Impact:",
+            "Converts 60% of Physical damage to Lightning Damage",
+            "Maximum of 9 Active bolts",
+            "Impact radius is 0.8 metres",
+            "Charged Bolt duration is 8s",
+            "Fires 3 bolts",
+            "Stormblast Bolts - Explosion:",
+            "Converts 100% Physical damage to Lightning damage",
+            "Maximum of 9 Active Bolts",
+            "Explosion radius is 1.6 meters",
+            "Ammunition:",
+            "50% less reload speed",
+            "three bolts loaded per clip"
+        ]
+    },
+    {
+        "Name": "Stormcaller ArrowStormcaller Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Arrow:",
+            "Converts 20% of Physical Damage to Lightning Damage",
+            "Arrow duration is 1.5 seconds",
+            "Bolt:",
+            "Attack Damage: 169%",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "800% more chance to Shock",
+            "Impact radius is 1 metre",
+            "Arrow duration is 1.5 seconds"
+        ]
+    },
+    {
+        "Name": "Sunder",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Payoff"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Dex: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Wave:",
+            "1.4s to total Attack Time",
+            "0.2M to Wave Length for each wave in sequence",
+            "100% increased Critical Damage bonus",
+            "While Dual Wielding both weapons hit with 30% less damage",
+            "Consumes Fully Broken Armour on enemies to guarantee a Critical hit",
+            "Wave length is 0.9M",
+            "Wave causes shockwaves from up to 5 enemies in each area",
+            "Shockwave:",
+            "100% increased critical Damage bonus",
+            "While Dual Wielding",
+            "both weapons hit with 30% less damage,Consumes fully broken armour on enemies to guarantee a Critical Hit,Shockwave radius is 1.2M"
+        ]
+    },
+    {
+        "Name": "Supercharged Slam",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Chanelling"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Dex: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact:",
+            "Impact Radius is 1.6M",
+            "20% more Damage with Hits for Each Stage",
+            "Maximum of 3 Stages",
+            "Channelling ends 1s after reaching maximum stages",
+            "Releases 1 Aftershock per Stage.",
+            "Aftershock:",
+            "Aftershock Radius is 2.8M",
+            "Each successive Aftershock gains 0.5M to radius"
+        ]
+    },
+    {
+        "Name": "Tempest BellTempest Bell",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Sustained",
+            "Duration",
+            "Nova"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 15"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 15\tTempest Bell:",
+            "Requires 4 Combo to Use",
+            "Lose Combo if you Generate No Combo for 8 Seconds",
+            "Limit 1 Bell",
+            "Bell Duration is 6 Seconds",
+            "Bell is Destroyed after 11 Hits",
+            "Impact:",
+            "Impact Radius is 1.8 Metres",
+            "Shockwave:",
+            "30% More AoE per .1 Metres of Knockback the Triggering Hit would have caused",
+            "Deals 30% more Damage per Elemental Ailment Afflicting the Bell",
+            "60% of Physical Damage Converted to the Corresponding Damage Type of each Elemental Ailment Afflicting the Bell",
+            "Shockwave Radius is 2.4 Metres"
+        ]
+    },
+    {
+        "Name": "Tempest FlurryTempest Flurry",
+        "Tags": [
+            "Attack",
+            "Melee",
+            "Strike",
+            "Lightning"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 20"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 20\tNormal Strikes:",
+            "Converts 60% of Physical Damage to Lightning Damage",
+            "+4 to Melee Strike Range",
+            "Third Strike:",
+            "35% Less Attack Speed",
+            "Fourth Strike:",
+            "45% Less Attack Speed",
+            "Converts 100% of Physical Damage to Lightning Damage",
+            "+6 to Melee Strike Range",
+            "100% more Chance to Shock"
+        ]
+    },
+    {
+        "Name": "Temporal Chains",
+        "Tags": [
+            "AoE,Duration",
+            "Curse"
+        ],
+        "Level": 13,
+        "Requirements": [
+            "Int: 119"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse radius is 1.9 metres",
+            "Curse duration is 6.8 sec",
+            "Other effects on cursed enemies expire 25% slower",
+            "Cursed enemies are slowed by 26%"
+        ]
+    },
+    {
+        "Name": "Tornado ShotTornado Shot",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 95"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact:",
+            "Impact radius 1m",
+            "Tornado:",
+            "Deals 28.6 base Physical DPS",
+            "Modifiers to Projectile DMG apply to skill's DoT effect",
+            "Tornado spits out 3 copies of Projectiles",
+            "Limit 1 Tornado",
+            "Max duration is 7s",
+            "Disappears after 7 Hits",
+            "Projectiles deal 50% less damage",
+            "Copied projectiles max travel distance 6m"
+        ]
+    },
+    {
+        "Name": "Toxic GrowthToxic Growth",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 5,
+        "Requirements": [
+            "Str: 34"
+        ],
+        "Description": null,
+        "Effects": [
+            "Attack:",
+            "0.7 Seconds to Total Attack Time",
+            "Fires 8 Arrows",
+            "Stored Poison adds up to 1 metre to base explosion radius",
+            "Stored Poison grants up to 100% more explosion damage",
+            "Explosion Radius is 0.8 metres",
+            "Maximum Pustule Duration is 6 seconds"
+        ]
+    },
+    {
+        "Name": "UnearthUnearth",
+        "Tags": [
+            "Minion",
+            "AoE",
+            "Physical",
+            "Duration"
+        ],
+        "Level": 1,
+        "Requirements": [
+            "Int: 9"
+        ],
+        "Description": null,
+        "Effects": [
+            "Summons bone constructs from corpses",
+            "Cone Length is 6 metres",
+            "Bone construct duration is 12 seconds."
+        ]
+    },
+    {
+        "Name": "Vaulting Impact",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Travel"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 10"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 10",
+            "1 Second to total Attack Time",
+            "30% more Stun Buildup",
+            "Consume Daze on Enemies to Cause 300% more Stun Buildup",
+            "Impact Radius is 2.4 Metres"
+        ]
+    },
+    {
+        "Name": "Vine ArrowVine Arrow",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Chaos",
+            "Duration"
+        ],
+        "Level": 3,
+        "Requirements": [
+            "Str: 16"
+        ],
+        "Description": null,
+        "Effects": [
+            "Impact Radius is 0.8 Metres"
+        ]
+    },
+    {
+        "Name": "Volcanic FissureVolcanic Fissure",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Slam",
+            "Sustained",
+            "Fire",
+            "Duration"
+        ],
+        "Level": 9,
+        "Requirements": [
+            "Dex: 72"
+        ],
+        "Description": null,
+        "Effects": [
+            "Converts 60% of Physical Damage to Fire Damage",
+            "While Dual Wielding both weapons hit with 30% less attack speed",
+            "Fissure duration is 12 seconds"
+        ]
+    },
+    {
+        "Name": "Voltaic GrenadeVoltaic Grenade",
+        "Tags": [
+            "AoE",
+            "Projectile",
+            "Grenade",
+            "Lightning",
+            "Duration"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Dex: 30",
+            "Converts 80% of Physical damage to Lightning damage",
+            "50% more Electrocution Buildup",
+            "Lightning damage from this skill contributes to electrocution buildup",
+            "Explosion radius is 2M",
+            "Fuse duration is 1.2s"
+        ]
+    },
+    {
+        "Name": "Voltaic MarkVoltaic Mark",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Mark",
+            "Lightning",
+            "Duration",
+            "Nova"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Mark:",
+            "Limit 1 Marked target",
+            "Mark Duration 8 secs",
+            "Hits against Marked enemy have 50% more Shock chance",
+            "Shock has 30% increased effect on Marked enemy",
+            "Nova:",
+            "Attack Damage: 271%",
+            "3-57 base Lightning Damage",
+            "+8% Critical Hit Chance",
+            "200% Shock chance",
+            "Nova radius 2.6 metres"
+        ]
+    },
+    {
+        "Name": "VulnerabilityVulnerability",
+        "Tags": [
+            "AoE",
+            "Physical",
+            "Duration",
+            "Curse"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Int: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Curse radius is 1.7 metres",
+            "Curse duration is 6.4 seconds",
+            "Hits against Cursed Enemies ignore 191 Armour"
+        ]
+    },
+    {
+        "Name": "Wave of FrostWave of Frost",
+        "Tags": [
+            "Attack",
+            "AoE",
+            "Melee",
+            "Cold"
+        ],
+        "Level": 7,
+        "Requirements": [
+            "Str: 30"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 30",
+            "Converts 80% of Physical Damage to Cold Damage",
+            "180% More Freeze Buildup",
+            "Wave Length is 6 Metres"
+        ]
+    },
+    {
+        "Name": "Whirling Assault",
+        "Tags": [
+            "AoE",
+            "Melee",
+            "Strike"
+        ],
+        "Level": 11,
+        "Requirements": [
+            "Str: 52"
+        ],
+        "Description": null,
+        "Effects": [
+            "Int: 52",
+            "1.4 seconds to Total Attack time",
+            "Wind Blast \tAoE, Melee\t5\t14\tStr: 20",
+            "Int: 20",
+            "150% more Stun Buildup",
+            "Knock enemies back on hit",
+            "Causes Daze Buildup equal to 532% of Physical damage dealt",
+            "Cone Length is 6 metres"
+        ]
+    }
 ]

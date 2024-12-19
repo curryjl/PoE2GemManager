@@ -5,7 +5,7 @@
             "Support"
         ],
         "Requirements": [
-            "\u30fb30% increased effect of Offerings"
+            "30% increased effect of Offerings"
         ],
         "Description": null,
         "Effects": [
@@ -1503,7 +1503,7 @@
             "None"
         ],
         "Requirements": [
-            "\u30fbSkills have 20% less Area of Effect"
+            "Skills have 20% less Area of Effect"
         ],
         "Description": null,
         "Effects": [
@@ -1519,7 +1519,7 @@
             "AoE"
         ],
         "Requirements": [
-            "\u30fbSupported Spells Echo once"
+            "Supported Spells Echo once"
         ],
         "Description": null,
         "Effects": [
