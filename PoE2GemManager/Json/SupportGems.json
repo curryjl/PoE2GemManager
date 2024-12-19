@@ -4,11 +4,10 @@
         "Tags": [
             "Support"
         ],
-        "Requirements": [
-            "30% increased effect of Offerings"
-        ],
+        "Requirements": [],
         "Description": null,
         "Effects": [
+            "30% increased effect of Offerings",
             "Supported Skills Sacrifice 15% of Life on use",
             "Supported Offering Skills deal 30% more Damage."
         ]
@@ -1502,11 +1501,10 @@
         "Tags": [
             "None"
         ],
-        "Requirements": [
-            "Skills have 20% less Area of Effect"
-        ],
+        "Requirements": [],
         "Description": null,
         "Effects": [
+            "Skills have 20% less Area of Effect",
             "Cascades from skills have 20% less Area of Effect",
             "Skills deal 30% less damage",
             "Skills affect areas on either side of the targeted area on a random axis"
@@ -1518,11 +1516,10 @@
             "Spell",
             "AoE"
         ],
-        "Requirements": [
-            "Supported Spells Echo once"
-        ],
+        "Requirements": [],
         "Description": null,
         "Effects": [
+            "Supported Spells Echo once",
             "Supported Skills have 30% less Cast Speed",
             "Echoes from Supported Spells have 30% more Area of Effect"
         ]
