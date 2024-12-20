@@ -1,0 +1,126 @@
+[
+    {
+        "Term": "Ailment",
+        "Definition": "An effect that negatively affects a character, usually classified as elemental, non-damaging, and damaging ailments."
+    },
+    {
+        "Term": "Ammunition",
+        "Definition": "Using a Crossbow ammunition Skill replaces your Crossbow's basic attack with the skill indicated. The Ammunition Skill itself does not fire the Ammunition, only load it into your Crossbow."
+    },
+    {
+        "Term": "Ancestral",
+        "Definition": "Boost\tAn Ancestral Boost Skill has 20% more damage and area of effect."
+    },
+    {
+        "Term": "AoE",
+        "Definition": "The skill has an effect that pplies to every target in its area, rather than picking specific targets. ^Areas of Effect that originate from a target hit by a skill will add that target's size to their radius."
+    },
+    {
+        "Term": "Buff",
+        "Definition": "Buffs are effects that boost a player or monster's stats for a duration or while a condition is met. ^Unless otherwise stated, buffs of the same type do not stack — only the copy with the strongest effect applies."
+    },
+    {
+        "Term": "Chaining",
+        "Definition": "Effects that chain are redirected to another target after hitting an enemy. Projectiles cannot chain from enemies they pierce or fork from. ^Projectiles have a base chaining distance of 6 metres whereas other effects have a chaining distance of 4 metres."
+    },
+    {
+        "Term": "Channelling",
+        "Definition": "Channelling skills can be held down to gain power or continue using the skill for a longer period of time."
+    },
+    {
+        "Term": "Chaos",
+        "Definition": "Chaos damage is one of the five damage types. It is reduced by chaos resistance. ^Chaos damage is the least common damage type, and removes twice as much energy shield as the damage value when taken."
+    },
+    {
+        "Term": "Chill",
+        "Definition": "An effect that applies slow to a unit, effictively reducing their overall movement speed."
+    },
+    {
+        "Term": "Cold",
+        "Definition": "One of the five damage types. It is reduced by cold resistance. Cold hits apply chill and build up freeze."
+    },
+    {
+        "Term": "Curse",
+        "Definition": "Curses significantly debuff affected targets. By default a target can have one curse on them at a time."
+    },
+    {
+        "Term": "Detonator",
+        "Definition": "Detonator skills can cause flammable gas, oil, and similar effects to explode on contact."
+    },
+    {
+        "Term": "Duration",
+        "Definition": "Refers to how long an effect lasts."
+    },
+    {
+        "Term": "Fire",
+        "Definition": "Fire damage is one of the five damage types. It is reduced by fire resistance. Fire hits have a chance to ignite based on how much fire damage is dealt."
+    },
+    {
+        "Term": "Grenade",
+        "Definition": "Grenade skills are only usable when wielding a crossbow. They have cooldowns, but generally deilver high damage or powerful utility. ^Grenade skills have a fuse duration and will generally not explode until the fuse has expired, so they are strongest when you aim carefully and predict enemy movements. ^Grenades cannot Fork or Chain."
+    },
+    {
+        "Term": "Herald",
+        "Definition": "Abilities that apply buffs to yourself to deal additional damage."
+    },
+    {
+        "Term": "Life Leach",
+        "Definition": "Refers to any damage inflicted on an enemy that recovers life or mana."
+    },
+    {
+        "Term": "Lightning",
+        "Definition": "Lightning damage is one of the five damage types. It is reduced by lightning resistance. Lightning hits have a chance to shock based on how much lightning damage is dealt."
+    },
+    {
+        "Term": "Mark",
+        "Definition": "Marks are a family of debuffs that apply powerful effects to a single enemy, usually for a limited duration. You can have multiple marked enemies at once, but each individual enemy can only have a single mark applied to them at once."
+    },
+    {
+        "Term": "Meta",
+        "Definition": "Meta Gems are skill gems that can use, trigger, or otherwise apply the effects of other skill gems. Skill gems and support gems can be socketed into them interchangeably, though most meta gems require at least one skill gem to be socketed to function."
+    },
+    {
+        "Term": "Nova",
+        "Definition": "Skills that protrude around a player instead of a targeted area."
+    },
+    {
+        "Term": "Payoff",
+        "Definition": "Payoff skills have powerful extra effects when hitting enemies infliected with special debuffs, often consuming the debuff in the process. Payoff skills cannot influct the debuff they interact with."
+    },
+    {
+        "Term": "Persistent",
+        "Definition": "Persistent skills are toggled in the skills panel instead of being used normally and often need to reserve spirit in order to be activated."
+    },
+    {
+        "Term": "Physical",
+        "Definition": "The most common damage type that can only be reduced by a target's armor. While this type of damage mainly comes from weapon attacks, there are certain spells that also deal physical damage."
+    },
+    {
+        "Term": "Projectile",
+        "Definition": "A Projectile is a moving attack or spell that usually impacts with targets when it hits them. ^When a group of multiple projectiles is fired from the same source at the same time, only one projectile in the group can hit each target unless otherwise specified."
+    },
+    {
+        "Term": "Slam",
+        "Definition": "Slams are melee attacks that cause damaging areas of effect, rather than striking enemies with your weapon directly. Damage from slams is still melee damage."
+    },
+    {
+        "Term": "Strike",
+        "Definition": "A melee attack that directly hits with weapons or body parts. Slam attacks do not count as strikes."
+    },
+    {
+        "Term": "Sustained",
+        "Definition": "Sustained skills cause a large number of hits over a period of time. They roll for critical hits independently each time they damage enemies, rather than rolling once for the entire skill as other skills do."
+    },
+    {
+        "Term": "Totem",
+        "Definition": "Totems are allied constructs which uses skills for you. Totems are not minions and their skills benefit from your stats, though they have their own defensive stats and can be damaged or killed. ^Totem Limit is shared between different types of Totem by default."
+    },
+    {
+        "Term": "Travel",
+        "Definition": "Travel skills cover a large amount of distance and don't need to target an enemy."
+    },
+    {
+        "Term": "Trigger",
+        "Definition": "Abilities that automatically activate upon meeting specific conditions."
+    }
+]

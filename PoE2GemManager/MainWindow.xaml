@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PoE2GemManager" xmlns:local1="clr-namespace:PoE2GemManager.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FF2B2B2B"
+        Title="Path of Exile 2 - Gem Manager" Height="450" Width="800" Background="#FF2B2B2B"
         ResizeMode="CanResize">
     <TabControl>
         <TabItem Header="Gems">
@@ -15,7 +15,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
 
@@ -34,29 +34,7 @@
             </Grid>
         </TabItem>
         <TabItem Header="Terms">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1.5*"/>
-                    <ColumnDefinition Width="2*"/>
-                </Grid.ColumnDefinitions>
-
-                <Border Grid.Row="0" Grid.ColumnSpan="2" Height="30" BorderBrush="Black" BorderThickness="2">
-                    <!-- local1 because in the above , there are 2 includes and the views is referenced by local1 -->
-                    <local1:CharacterClassView />
-                </Border>
-                <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="2">
-                    <local1:SkillGemView />
-                </Border>
-                <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="2">
-                </Border>
-                <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="2">
-                    <local1:SupportGemView />
-                </Border>
-            </Grid>
+            <local1:SkillTagTermsView />
         </TabItem>
     </TabControl>
 </Window>
