@@ -33,6 +33,10 @@ dotnet build
 1. Set `PoE2GemManager` as the startup project.
 2. Press `F5` or click on the `Start` button in Visual Studio to run the application.
 
+
+### Screenshot of the Application
+![Alt text](Images/PoEGemManager.png "Screenshot of the Application (WIP)")
+
 ## Project Structure
 
 - `PoE2GemManager/Models`: Contains the data models used in the application.
